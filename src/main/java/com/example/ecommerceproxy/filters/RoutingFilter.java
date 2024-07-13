@@ -31,6 +31,7 @@ public class RoutingFilter implements Filter {
         String forwardUrl = buildForwardUrl(httpRequest);
         HttpHeaders headers = ForwardHeader.forwardHeaders(httpRequest);
 
+
 //        Pobieranie body i headers z requesta wprost
 
         StringBuilder requestBody = new StringBuilder();

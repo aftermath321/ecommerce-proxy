@@ -12,7 +12,7 @@ import java.io.IOException;
 
 public class MainFilter implements Filter {
 
-    private static final String SECURITY_URL = "http://localhost:8082/";
+    private static final String SECURITY_URL = "http://localhost:8082";
     private static final String JWT_TOKEN = "Bearer 1234"; // Static JWT token
 
     @Override
